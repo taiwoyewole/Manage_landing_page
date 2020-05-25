@@ -5,8 +5,6 @@ body {
     margin: 0;
     font: 15px/23px 'Be Vietnam', sans-serif;
     color: hsl(228, 39%, 23%);
-    background-image: url("https://www.freepik.com/free-vector/elegant-white-background-with-shiny-lines_4077186.htm#page=1&query=background&position=18");
-    background-size: cover;
 }  
 header {
     padding: 15px 15px 0 15px;
@@ -87,6 +85,7 @@ p {
 }
 #button:hover, #button-two:hover {
     box-shadow: 0 8px 6px -6px hsl(12, 88%, 59%);
+    background-color: hsl(13, 64%, 75%);
     text-decoration: none;
 }
 #product {
