@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font: 15px/23px 'Be Vietnam', sans-serif;
+    color: hsl(228, 39%, 23%);
+    background-image: url("https://www.freepik.com/free-vector/elegant-white-background-with-shiny-lines_4077186.htm#page=1&query=background&position=18");
+    background-size: cover;
+}  
+header {
+    padding: 15px 15px 0 15px;
+}
+#header-img {
+    padding: 20px 0 0 5px;
+}
+#navbar {
+    padding-right: 30px;
+    padding-top: 15px;
+}
+#navbar ul {
+    float: right;
+}
+#navbar ul li {
+    list-style-type: none;
+    font-size: 11px;
+    font-weight: 600;
+}
+#navbar li a {
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+    box-shadow: 0 8px 6px -6px hsl(12, 88%, 59%);
+}
+#navbar li a:hover {
+    border-bottom: 1px solid hsl(12, 88%, 59%);
+    padding-bottom: 5px;
+}
+#navbar li a:visited {
+    color: hsl(12, 88%, 59%);
+}
+#button {
+    color: #fff;
+    border-radius: 25px;
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 25px;
+    font-size: 11px;
+    display: inline-block;
+    margin-top: 25px;
+}
+main {
+    margin-top: 105px;
+    padding: 15px 15px 0 15px;
+}
+.main-img {
+    border: 6px solid #faf9f9;
+    width: 110%;
+}
+#img {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 20px;
+    width: 100%;
+}
+.lower-img {
+    margin-left: 70px;
+    margin-top: -12px;
+}
+#pricing h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+    color: hsl(227, 12%, 61%);
+    text-align: center;
+}
+#button-two {
+    border-radius: 25px;
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 35px;
+    font-size: 11px;
+    margin: 30px auto;
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+#button:hover, #button-two:hover {
+    box-shadow: 2px 2px 10px 5px #6a1a1a;
+    text-decoration: none;
+}
+#product {
+    margin-top: 80px;
+}
+#left-div h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#right-div {
+    margin-top: 60px;
+}
+.inner-div {
+    display: flex;
+    margin: 35px 0 20px 0;
+}
+.inner-div h4{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+}
+#right-div p {
+    text-align: left;
+}
+.inner-div span {
+    background-color: hsl(13, 100%, 96%);
+    padding: 10px 0 10px 30px;
+    margin-left: 10px;
+    z-index: 1;
+    position: relative;
+    left: 30px;
+    width: 90%;
+}
+.inner-div h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 18px;
+    position: absolute;
+    z-index: 2;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 25px;
+    color: #fff;
+}

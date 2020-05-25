@@ -1,0 +1,236 @@
+@media only screen
+and (min-device-width: 768px) {
+    main {
+        padding: 20px 20px 0 20px;  
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px 0 20px;  
+    }
+    #navbar {
+        padding-right: 0;
+        display: flex;
+    }
+    nav ul {
+        float: none;
+        padding-left: 0;
+        margin-right: 100px;
+    }
+    nav ul li {
+        display: inline;
+        font-size: 13px;
+        padding: 0px 5px;
+    }
+    #button {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    #pricing {
+        display: flex;
+        justify-content: space-between;
+    }
+    #img {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-gap: 10px;
+        width: 50%;
+    }
+    .lower-img {
+        margin-left: 90px;
+        margin-top: -35px;
+    }
+    .main-img {
+        border: 6px solid #faf9f9;
+        width: 100%;
+    }
+    #side-div {
+        width: 40%;
+    }
+    #side-div h1 {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    #side-div p, #product h2, #product p {
+        text-align: left;
+    }
+    #button-two {
+        margin: 30px 0;
+    }
+    #product {
+        display: flex;
+    }
+    #product h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    #right-div {
+        margin-left: 45px;
+        margin-top: 0;
+    }
+    .inner-div h3 {
+        background-color: hsl(12, 88%, 59%);
+        border-radius: 25px;
+        color: #fff;
+        padding: 10px 25px;
+    }
+    .inner-div h4 {
+        font-size: 16px;
+    }
+    .inner-div span {
+        padding: 10px 0 10px 50px;
+        background-color: white;
+    }
+    #right-div p {
+        margin-left: 93px;
+        margin-bottom: 20px;
+    }   
+}
+@media only screen and (min-device-width: 1024px) {
+    main, header {
+        padding: 25px 25px 0 25px;
+    }
+    nav ul {
+        margin-right: 165px;
+    }
+    #navbar ul li {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    main {
+        margin-top: 85px;
+    }
+    #img {
+        grid-gap: 12px;
+    }
+    .lower-img {
+        margin-left: 120px;
+        margin-top: 0px;
+    }
+    #right-div {
+        margin-left: 52px;
+    }
+}
+@media only screen and (min-device-width: 1440px) {
+    main, header {
+        padding: 30px 30px 0 30px;
+    }
+    nav ul {
+        margin-right: 345px;
+    }
+    #navbar ul li {
+        font-size: 17px;
+        padding: 0 15px;
+    }
+    #button {
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+    main {
+        margin-top: 125px;
+    }
+    #side-div h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #button-two {
+        padding: 12px 40px;
+        font-size: 15px;
+    }
+    #img {
+        grid-gap: 20px;
+    }
+    .lower-img {
+        margin-left: 170px;
+        margin-top: -2px;
+    }
+    #product h2 {
+        font-size: 38px;
+    }
+    #right-div {
+        margin-left: 75px;
+    }
+    #right-div p {
+        margin-left: 110px;
+    }
+    .inner-div {
+        margin-bottom: 15px;
+    }
+    .inner-div span {
+        padding: 10px 0 10px 69px;
+    }
+    .inner-div h3, .inner-div h4{
+        font-size: 22px;
+    } 
+}
+@media only screen and (min-device-width: 2560px) {
+body {
+    padding: 60px 50px 0 50px;
+}
+.logo {
+    width: 170%;
+}
+nav ul {
+    margin-right: 490px;
+}
+#navbar ul li {
+    font-size: 30px;
+    padding: 0 35px;
+}
+#button {
+    padding: 30px 70px;
+    font-size: 23px;
+    border-radius: 50px;
+}
+#button-two {
+    padding: 30px 70px;
+    margin-top: 70px;
+    font-size: 23px;
+    border-radius: 50px;
+}
+main {
+    margin-top: 190px;
+}
+#side-div h1 {
+    font-size: 85px;
+    margin-bottom: 50px;
+}
+p {
+    font-size: 33px;
+    line-height: 50px;
+}
+#product h2 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+#right-div {
+    margin-left: 190px;
+}
+.inner-div {
+    margin-bottom: 30px;
+}
+.inner-div span {
+    padding-left: 130px;
+}
+.inner-div h3 {
+    font-size: 38px;
+    padding: 13px 35px;
+}
+.inner-div h4 {
+    font-size: 38px;
+}
+#right-div p {
+    margin-left: 170px;
+    margin-bottom: 60px;
+}
+#img {
+    grid-gap: 45px;
+}
+.lower-img {
+    margin-left: 295px;
+    margin-top: -10px;
+}
+}
