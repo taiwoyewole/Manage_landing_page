@@ -3,4 +3,4 @@ A Frontend project
 
 Build a Landing Page using HTML & CSS
 
-https://manage-to.netlify.app/
+Link to live site: https://manage-to.netlify.app/
