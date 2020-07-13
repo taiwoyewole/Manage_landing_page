@@ -1,6 +1,6 @@
-SheCodeAfrica - Project 2
-Frontend task
+# Manage_landing_page - Project 2
+A Frontend project
 
 Build a Landing Page using HTML & CSS
 
-https://taiwoyewole.github.io/SheCode-Project/
+https://manage-to.netlify.app/
