@@ -4,31 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mobile.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">
 </head>
 <body>
     <header>
-        <span>
-            <img id="header-img" src="images/logo.svg" alt="logo" class="logo">
-        </span>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#career">Careers</a></li>
-                <li><a href="#comm">Community</a></li>
+        <nav class="navbar navbar-expand-sm justify-content-between w-100 py-4">
+            <img class="navbar-brand" src="images/logo.svg" alt="Logo">
+
+            <!-- Modal  -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the modal  -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- modal-content -->
+                <div class="overlay-content">
+                    <ul>
+                        <li class="menu-list"><a href="#home-sec">Pricing</a></li>
+                        <li class="menu-list"><a href="">Product</a></li>
+                        <li class="menu-list"><a href="">About Us</a></li>
+                        <li class="menu-list"><a href="">Career</a></li>
+                        <li class="menu-list"><a href="">Community</a></li>
+                    </ul>
+                </div> 
+            </div>
+
+            <!-- Toggler Button -->
+            <span onclick="openNav()"><img src="images/icon-hamburger.svg" alt=""></span>
+
+            <!--  desktop navbar  -->
+            <ul id="navbar" class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link px-3" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#career" class="nav-link px-4 py-2">Career</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#comm" class="nav-link px-4 py-2">Community</a>
+                </li>
             </ul>
             <a id="button" href="" target="_blank">Get Started</a>
         </nav>
     </header>
-    <main>
-        <section id="pricing">
+    <main class="p-0">
+        <section class="mt-5" id="pricing">
+            <div class="mobile illustration">
+                <img class="img-fluid d-block m-auto" src="images/illustration-intro.svg" alt="">
+            </div>
             <div id="side-div">
                 <h1>
                     Bring everyone together to build better products.
@@ -40,111 +74,103 @@
                     <a id="button-two" href="" target="_blank">Get Started</a>
                 </p>
             </div>
-            <div id="img">
-                <img class="main-img" src="images/Chart1.png" alt="">
-                <img class="main-img" src="images/Chart2.png" alt="">
-                <img class="main-img lower-img" src="images/Chart3.png" alt="">
+            <div class="illustration desktop">
+                <img class="img-fluid d-block m-auto" src="images/illustration-intro.svg" alt="">
             </div>
-            </section>
-            <section id="product">
-                <div id="left-div">
-                    <h2>
-                        What's diferrent about Manage?
-                    </h2>
-                    <p>
-                        Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital products teams.
-                    </p>
+        </section>
+        <section id="product">
+            <div id="left-div">
+                <h2>
+                    What's diferrent about Manage?
+                </h2>
+                <p>
+                    Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital products teams.
+                </p>
+            </div>
+            </div>
+            <div id="right-div">
+                <div class="inner-div">
+                    <h3>01</h3>
+                    <span>
+                        <h4>
+                            Track company-wide progress
+                        </h4>
+                    </span>
                 </div>
+                <p>
+                    See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way down to the smallest details. Never lose sight od the bigger picture again.
+                </p>
+                <div class="inner-div">
+                    <h3>02</h3>
+                    <span>
+                        <h4>
+                            Track company-wide progress
+                        </h4>
+                    </span>
                 </div>
-                <div id="right-div">
-                    <div class="inner-div">
-                        <h3>01</h3>
-                        <span>
-                            <h4>
-                                Track company-wide progress
-                            </h4>
-                        </span>
-                    </div>
-                    <p>
-                        See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way down to the smallest details. Never lose sight od the bigger picture again.
-                    </p>
-                    <div class="inner-div">
-                        <h3>02</h3>
-                        <span>
-                            <h4>
-                                Track company-wide progress
-                            </h4>
-                        </span>
-                    </div>
-                    <p>
-                        Set internal delvery estimates and track progress toward company goals. Our customisable dashboard heps you tp build out the reports you need to keep key stakeholders informed.
-                    </p>
-                    <div class="inner-div">
-                        <h3>03</h3>
-                        <span>
-                            <h4>
-                                Everything you need in one place
-                            </h4>
-                        </span>
-                    </div>
-                    <p>
-                        Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers on all-in-one team productivity solution.
-                    </p>
+                <p>
+                    Set internal delvery estimates and track progress toward company goals. Our customisable dashboard heps you tp build out the reports you need to keep key stakeholders informed.
+                </p>
+                <div class="inner-div">
+                    <h3>03</h3>
+                    <span>
+                        <h4>
+                            Everything you need in one place
+                        </h4>
+                    </span>
                 </div>
-            </section>
-     </main>
-     <section class="testimonial">
-        <h2> What they've said</h2>
-        <div class="generaltesbar">
-        <div class="tesbar">
-           <span> <img src="images/avatar-anisha.png" alt="avatar-anisha" class="tesimg">
-           </span>
-            <h4> Anisha Li </h4>
-            <p>“Manage has supercharged our team’s workflow. The <br>
-             ability to maintain visibility on larger milestones at all times <br>
-             everyone motivated.”</p>
-        </div>
-        <div class="tesbar">
-         <span> <img src="images/avatar-ali.png" alt="avatar-ali" class="tesimg">
-         </span>
-          <h4> Ali Bravo </h4>
-          <p>“We have been able to cancel so many other subscriptions<br> 
-             since using Manage. There is no more cross-channel<br> 
-             confusion and everyone is much more focused.” </p>
-      </div>
-      <div class="tesbar">
-         <span> <img src="images/avatar-richard.png" alt="avatar-richard" class="tesimg">
-         </span>
-          <h4> Richard Watts </h4>
-          <p>“Manage allows us to provide structure and process. It<br> 
-             keeps us organized and focused. I can’t stop recommending<br> 
-             them to everyone I talk to!”</p>
-      </div>
-      <!--<div class="tesbar">
-         <span> <img src="avatar-shanai.png" alt="avatar-shanai" class="tesimg">
-         </span>
-          <h4> Shanai Gough </h4>
-          <p>“Their software allows us to track, manage and collaborate<br>
-             on our projects from anywhere. It keeps the whole team in<br>
-             -sync without being intrusive.”</p>
-      </div>-->
-      </div>
-      <div class="button">
-      <button class="get">Get Started</button>
-      </div>
-    </section> 
-    <section class="simplify">
-        <h3>Simplify how your team<br>
-         works today.</h3>
-         <div class="btn">
-             <button class="btnsimplify"> Get Started</button>
-         </div>
-    </section>
+                <p>
+                    Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers on all-in-one team productivity solution.
+                </p>
+            </div>
+        </section>
+        <section class="testimonial">
+            <h2 class="font-weight-bold"> What they've said</h2>
+            <div class="generaltesbar">
+            <div class="tesbar">
+            <span> <img class="img-fluid" src="images/avatar-anisha.png" alt="avatar-anisha" class="tesimg">
+            </span>
+                <h4> Anisha Li </h4>
+                <p>“Manage has supercharged our team’s workflow. The <br>
+                ability to maintain visibility on larger milestones at all times <br>
+                everyone motivated.”</p>
+            </div>
+            <div class="tesbar">
+                <span> <img class="img-fluid" src="images/avatar-ali.png" alt="avatar-ali" class="tesimg">
+                </span>
+                <h4> Ali Bravo </h4>
+                <p>“We have been able to cancel so many other subscriptions<br> 
+                    since using Manage. There is no more cross-channel<br> 
+                    confusion and everyone is much more focused.”
+                </p>
+            </div>
+            <div class="tesbar">
+            <span> <img class="img-fluid" src="images/avatar-richard.png" alt="avatar-richard" class="tesimg">
+            </span>
+            <h4> Richard Watts </h4>
+            <p>“Manage allows us to provide structure and process. It<br> 
+                keeps us organized and focused. I can’t stop recommending<br> 
+                them to everyone I talk to!”
+            </p>
+            </div>
+            </div>
+            <div class="button">
+            <button class="get">Get Started</button>
+            </div>
+        </section> 
+        <section class="simplify">
+            <h3>Simplify how your team<br>
+            works today.</h3>
+            <div class="btn">
+                <button class="btnsimplify"> Get Started</button>
+            </div>
+        </section>
+    </main>
     <footer>
         <section id="footer">
             <div id="manage">
                 <ul class="section1">
-                        <img src="images/logo.svg" alt="logo" class="logo">
+                        <img class="img-icon" src="images/logo.svg" alt="logo" class="logo">
                         <p class="img">
                             <a href=""><img src="images/icon-facebook.svg" alt="icon-facebook" class="icon"></a>
                             <a href=""><img src="images/icon-youtube.svg" alt="icon-youtube" class="icon"></a>
@@ -178,5 +204,17 @@
             </div>
         </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type=text/javascript>
+        function openNav () {
+            document.getElementById('myNav').style.width = '100%';
+        }
+
+        function closeNav () {
+            document.getElementById('myNav').style.width = '0%';
+        }
+</script>
 </body>
 </html>
