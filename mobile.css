@@ -262,9 +262,7 @@ input{
     display: flex;
     justify-content: space-between;
 }
-section p a {
-    /* padding: 0 10px; */
-}
+
 .btnfooter{
     padding: 20px;
     border-radius: 30px;
@@ -291,7 +289,7 @@ section p a {
         margin: 0 35px 65px;
     }
     .tesbar img {
-        left: 39%;
+        left: 33%;
     }
     #side-div {
         padding: 1rem;
